@@ -239,7 +239,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 	},
 	"participant": "0@s.whatsapp.net"
 }
-let menuu = `┌────〔 *STORE-BOT* 〕───⬣
+let menuu = `┌────〔 *STORE-BOTZ* 〕───⬣
 │⬡ Aktif selama ${uptime}
 │⬡ _*${Object.keys(global.db.data.users).length}*_ Pengguna
 │⬡ Mode : *${global.opts['self'] ? 'Self' : 'publik'}*
@@ -443,15 +443,14 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            hydratedButtons: [{
             urlButton: {
                displayText: 'Website',
-               url: 'https://otpluar.my.id
-
+               url: 'https://otpluar.my.id'
              }
 
            },
              {
               urlButton: {
                displayText: 'Creator',
-               PhoneNumber: '6282176785539'
+               PhoneNumber: 'https://wa.me/6282176785539'
              }
            },
   
