@@ -239,7 +239,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 	},
 	"participant": "0@s.whatsapp.net"
 }
-let menuu = `┌────〔 *GXS-MD* 〕───⬣
+let menuu = `┌────〔 *STORE-BOT* 〕───⬣
 │⬡ Aktif selama ${uptime}
 │⬡ _*${Object.keys(global.db.data.users).length}*_ Pengguna
 │⬡ Mode : *${global.opts['self'] ? 'Self' : 'publik'}*
@@ -443,14 +443,15 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            hydratedButtons: [{
             urlButton: {
                displayText: 'Website',
-               url: 'https://bagas-api.herokuapp.com'
+               url: 'https://otpluar.my.id
+
              }
 
            },
              {
               urlButton: {
                displayText: 'Creator',
-               PhoneNumber: 'https://wa.me/62895410636348'
+               PhoneNumber: '6282176785539'
              }
            },
   
@@ -488,7 +489,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
     throw e
   }
 }
-handler.help = ['command', 'help', '?']
+handler.help = ['command', 'help', 'menu, '?']
 handler.tags = ['main']
 handler.command = /^(command|help|\?)$/i
 handler.owner = false
