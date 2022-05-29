@@ -5,7 +5,7 @@ let handler = async(m, { conn, text }) => {
     if (!email) return conn.reply(m.chat, 'Silahkan masukan nama email yang akan dispam', m)
     if (!pesan) return conn.reply(m.chat, 'Silahkan masukan pesan yang akan dispam', m)
 
-    axios.get(`https://videfikri.com/api/spamemail/?email=${email}&subjek=SPAM%20GMAIL%20BY%20GXS%20BOT&pesan=${pesan}`).then ((res) => {
+    axios.get(`https://videfikri.com/api/spamemail/?email=${email}&subjek=SPAM%20GMAIL%20BY%20STORE%20BOT&pesan=${pesan}`).then ((res) => {
          let hasil = `${res.data.result.log_lengkap}`
 
     conn.reply(m.chat, hasil, m)
