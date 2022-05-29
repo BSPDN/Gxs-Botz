@@ -1,27 +1,27 @@
 //=============『 Utama 』================== //
-global.owner = ['62895410636348'] 
+global.owner = ['6282176785539'] 
 global.mods = [] 
 global.prems = [] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'BagasPrdn'
+global.nameowner = 'JasaOtp'
 global.numberowner = '62895410636348'
 global.instagram = 'https://instagram.com/bagas_prdn0560'
 global.github = 'https://github.com/bagas160'
-global.dana = '0895410636348'
-global.pulsa = '083109741200'
-global.gopay = '0895410636348'
+global.dana = 'Chat Owner!!'
+global.pulsa = 'Chat Owner!!'
+global.gopay = 'Chat Owner!!'
 
 //=============『 Info Bot 』=================//
-global.namebot = 'Gxs - Botz'
-global.gc = 'https://chat.whatsapp.com/JwVolgwCnAHEqshe6rr6DT'
-global.web = 'https://bagas-api.herokuapp.com' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.namebot = 'BOT - STORE'
+global.gc = 'https://chat.whatsapp.com/HM12FtUj4lSCzkYbsEbIx3'
+global.web = 'https://otpluar.my.id' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 
 //=======『 Tampilan Dan Lainnya 』============//
-global.wm = 'Gxs - Botz'
+global.wm = 'Bot - Storee'
 global.watermark = wm
-global.wm2 = '                     「 Gxs - Botz 」'
-global.wm3 = '⫹⫺ Gxs - Botz'
+global.wm2 = '                     「 Bot - Storee 」'
+global.wm3 = '⫹⫺ Bot - Storee'
 global.htki = '––––––『' 
 global.htka = '』––––––'
 global.thumbnail = 'https://telegra.ph/file/7531655ced17698e8a4e0.png'
@@ -33,7 +33,7 @@ global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = 'Stiker sedang dibuat'
 global.packname = 'Made By'
-global.author = 'B\na\ng\na\ns\nP\nr\n\d\nn\nend'
+global.author = 'B\no\nt\nS\nt\no\nr\ne\nend'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
