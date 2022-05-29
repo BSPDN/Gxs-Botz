@@ -22,7 +22,9 @@ https://github.com/FahriAdison
 Ahmad
 https://github.com/Luigmntng
 BagasPrdn
-https://github.com/BagasPrdn`
+https://github.com/BagasPrdn
+JasaOtp
+https://otpluar.my.id`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {
